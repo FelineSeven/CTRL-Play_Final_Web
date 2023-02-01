@@ -1,0 +1,15 @@
+.titulo{
+    text-align: center;
+    font-family:Verdana, cursive, Tahoma, sans-serif
+}
+.formulario{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Verdana, cursive, Tahoma, sans-serif
+}

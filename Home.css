@@ -1,0 +1,30 @@
+nav{
+    float: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display:inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.InventarioJuegos{
+    float: left;
+    width: 57%;
+    height: 490px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.JuegosOfertas{
+    float: right;
+    width: 30%;
+    height: 490px;
+    padding-top: 10px;
+    padding-left: 10px;
+}

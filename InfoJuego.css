@@ -1,0 +1,13 @@
+.Caratula{
+    float: left;
+    width: 30%;
+    height: 490px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.InfJuego{
+    float: right;
+    width: 65%;
+    height: 490px;
+    padding-top: 120px;
+}

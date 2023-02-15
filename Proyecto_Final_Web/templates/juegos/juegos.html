@@ -9,8 +9,8 @@
 {% block content %}
 <div class="container lista">
     <ul class="list-group">
-        {% for autor in autores %}
-        <li class="list-group-item">{{ Juegos.nombre }} &nbsp;<a href="{% url 'autor_view' autor.id %}" class="btn btn-sm btn-success">Detalles</a>&nbsp;<a href="{% url 'autor_eliminar' autor.id %}" class="btn btn-sm btn-danger">eliminar</a></li>
+        {% for juego in juegos %}
+        <li class="list-group-item">{{ juego.nombre }} &nbsp;<a href="{% url 'juegos_view' juego.id %}" class="btn btn-sm btn-success">Detalles</a>&nbsp;<a href="{% url 'juego_eliminar' juego.id %}" class="btn btn-sm btn-danger">eliminar</a></li>
         {% endfor %}
     </ul>    
 </div>
